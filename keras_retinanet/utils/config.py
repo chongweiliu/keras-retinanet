@@ -19,11 +19,13 @@ import numpy as np
 import keras
 from ..utils.anchors import AnchorParameters
 
+
 def read_parameters_file(parameters_path):
     config = configparser.ConfigParser()
     config.read(parameters_path)
 
     return config
+
 
 def parse_anchor_parameters(config):
     ratios  = []

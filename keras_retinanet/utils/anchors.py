@@ -38,6 +38,7 @@ class AnchorParameters:
     def num_anchors(self):
         return len(self.ratios) * len(self.scales)
 
+
 """
 The default anchor parameters.
 """
